@@ -1,8 +1,31 @@
 Chinese-Language-Quizzer
 
+by Alistair Amick
+
+---
+
 This is a game that quizzes the player on their knowledge of basic mandarin Chinese. I made this for my mother's Mandarin Chinese language class as a way to get the kids more interested in their coursework. The quizzes and lessons are designed specifically around said coursework. I made this as a first "real project" in any language, with less than a month of learning Python.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+RUNNING
+-------
 To run the game, you may run the setup.py file and run the language_game/rungame.py file.   
+
+
+MODIFYING QUIZ CONTENT
+----------------------
+The quiz questions and answered may be easily modified by accessing the dictionary keys/values for a given lesson.
+
+
+RUNNING TESTS
+-------------
+To run tests on modifications, execute the nosetests command from the root directory.  The nosetests -v command may also be used
+for more detailed information on the test.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 For questions or comments, please email me at aamickWork@tutamail.com
 

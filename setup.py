@@ -6,9 +6,10 @@ except ImportError:
 config = {
     'description': 'Quizzes the user on their knowledge of Chinese',
     'author': 'Alistair Amick',
-    'url': 'https://github.com/AlistairAmick/Chinese-Language-Quizzer',
+    'url': 'https://github.com/AlistairAmick/Chinese-Language-Quizzer/releases/tag/v1.1.4', 
+    'download url': 'https://github.com/AlistairAmick/Chinese-Language-Quizzer/releases/tag/v1.1.4',
     'author_email': 'aamickWork@tutamail.com',
-    'version': '1.1.1',
+    'version': '1.1.4',
     'install_requires': ['nose'],
     'packages': ['language_game'],
     'scripts': ['language_game/main.py', 'language_game/score.py',
